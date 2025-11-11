@@ -18,6 +18,9 @@ global datadir ".../Replication package/data"
 
 cd "${workdir}"
 
+capture mkdir "${workdir}/graphs"
+capture mkdir "${workdir}/tables"
+
 *-----------------------------------------------------------------------
 * Install all user-written commands needed for replication
 *-----------------------------------------------------------------------
