@@ -13,8 +13,8 @@ version 17.0
 
 
 * 0_globals: contains all necessary globals to run the files and should be run at the start
-global workdir ".../Replication package" // insert folder path // "./Replication package"
-global datadir ".../Replication package/data" 
+global workdir ".../FoodSources" // insert folder path // "./Replication package"
+global datadir ".../FoodSources/data" 
 
 cd "${workdir}"
 
