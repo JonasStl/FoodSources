@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+*.smcl
+
+# Analysis inputs are present in the local deposit but are not tracked on GitHub.
+data/**
+!data/README.md
+
+# Reproducible outputs.
+graphs/**
+!graphs/.gitkeep
+tables/**
+!tables/.gitkeep
