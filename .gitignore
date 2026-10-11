@@ -2,9 +2,12 @@
 *.log
 *.smcl
 
-# Analysis inputs are present in the local deposit but are not tracked on GitHub.
-data/**
-!data/README.md
+# Intermediate datasets for the published figures and tables.
+/data/**
+!/data/README.md
+!/data/graphs and tables/
+!/data/graphs and tables/*.dta
+/data/graphs and tables/*lpoly*.dta
 
 # Reproducible outputs.
 graphs/**

@@ -6,7 +6,7 @@ use "$datadir/graphs and tables/byFG_country_incquint.dta", clear
 
 
 *------------------------------------------------------------
-* Excel table (not included)
+* Excel table
 *------------------------------------------------------------
 /*
 

@@ -30,6 +30,13 @@ The setup is path-neutral: it derives all paths from Stata's current working
 directory and contains no user-specific path. Figures are written to `graphs/`
 and formatted table workbooks to `tables/`.
 
+## Data inputs
+
+`data/graphs and tables/` contains intermediate Stata datasets with country and
+subgroup estimates, standard errors, confidence intervals, and survey summary
+statistics used by the figure and table programs. See `data/README.md` for the
+input directory structure.
+
 ## Program-to-output map
 
 | Program | Manuscript output |
@@ -56,4 +63,3 @@ and formatted table workbooks to `tables/`.
 Some figures share one program because they are alternative views of the same
 intermediate estimates. `_prepare_table1_wdi.do` is a shared helper used only
 by Figures 1a and S2.
-
